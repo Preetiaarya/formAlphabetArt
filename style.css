@@ -1,0 +1,59 @@
+/* ---------------header---------------- */
+.alphabetImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerImgDiv {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1375E4;
+    /* font-family: 'Mochiy Pop One';
+  font-weight: 400;
+  font-size: 1em; */
+    /* color: #FFFFFF; */
+}
+hr{
+    border: 1px solid #1375E4;
+}
+/* -------------------form-------------------- */
+form{
+  font-family: 'Inter';
+  width: 80%;
+  margin: auto;
+}
+label {
+    display: block;
+    color: #1375E4;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+input[type="text"], input[type="email"], input[type="number"] {
+    font-size: 20px;
+    height: 34px;
+    border-radius: 8px;
+    border: 1px solid #1375E4;
+    color: #1375E4;
+    padding: auto;
+}
+
+
+
+/* ----------------footer------------------- */
+footer {
+    width: 100%;
+    background-color: #1375E4;
+    position: absolute;
+    margin-top: 10px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
