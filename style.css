@@ -1,34 +1,41 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
 /* ---------------header---------------- */
-/* nav{
-    width: 100%;
-} */
 .alphabetImg {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.headerImgDiv {
+nav {
+    background-color: #1375E4;
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #1375E4;
-    font-family: 'Mochiy Pop One';
-    font-weight: 400;
-    font-size: 1em;
     color: #FFFFFF;
+    font-weight: 600;
+    font-family: 'Mochiy Pop One';
 }
+
+nav div:hovor {
+    background-color: #004CA1;
+}
+
 
 hr {
     border: 1px solid #94c3fa;
 }
 
 /* -------------------form-------------------- */
+
 form {
     font-family: 'Inter';
     width: 80%;
     margin: auto;
+
 }
 
 form p {
@@ -38,8 +45,9 @@ form p {
 #input-img {
     width: 48%;
     height: 130px;
-    border: 1px dashed #94c3fa;
+    border: 2px dashed #94c3fa;
     border-radius: 5px;
+    margin-bottom: 7px;
 }
 
 label {
@@ -48,8 +56,10 @@ label {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 8px;
+    font-family: sans-serif;
 }
-main input{
+
+main input {
     width: 100%;
 }
 
@@ -70,26 +80,16 @@ input[type="file"] {
 }
 
 input[type="button"] {
+    display: block;
+    width: 80%;
+    height: 40px;
     border: none;
-    /* margin-left: 50px; */
-    padding: 9px 50px;
-    width: 70%;
+    font-family: 'Mochiy Pop One';
     border-radius: 12px;
     font-size: 1.2rem;
     background: #59CDFF;
     box-shadow: 0px 5px #367DCA;
     color: white;
-}
-h3 a{
-    font-family: 'Mochiy Pop One';
-    font-weight: 600;
-    font-size: 15px; 
-    color: #367DCA;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 2em;
-    padding: 0%;
 }
 
 
@@ -99,8 +99,13 @@ footer {
     background-color: #1375E4;
     position: absolute;
     margin-top: 10px;
-    
+
 }
+
+footer img p {
+    margin-left: 7px;
+}
+
 footer p {
     font-size: 20px;
 }
@@ -109,6 +114,33 @@ footer a {
     text-decoration: none;
     color: #FFFFFF;
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
+}
+
+@media(min-width:768px) {
+    #input-img {
+        width: 10%;
+        height: 130px;
+    }
+
+    nav {
+        height: 90px;
+    }
+
+    .name-age {
+        display: flex;
+        font-size: 20px;
+    }
+
+    .email-phone {
+        display: flex;
+        gap: 20px;
+    }
+
+    .state-city-pincode {
+        display: flex;
+        gap: 20px;
+    }
 }
