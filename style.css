@@ -1,4 +1,7 @@
 /* ---------------header---------------- */
+/* nav{
+    width: 100%;
+} */
 .alphabetImg {
     display: flex;
     justify-content: center;
@@ -7,38 +10,87 @@
 
 .headerImgDiv {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     background-color: #1375E4;
-    /* font-family: 'Mochiy Pop One';
-  font-weight: 400;
-  font-size: 1em; */
-    /* color: #FFFFFF; */
+    font-family: 'Mochiy Pop One';
+    font-weight: 400;
+    font-size: 1em;
+    color: #FFFFFF;
 }
-hr{
-    border: 1px solid #1375E4;
+
+hr {
+    border: 1px solid #94c3fa;
 }
+
 /* -------------------form-------------------- */
-form{
-  font-family: 'Inter';
-  width: 80%;
-  margin: auto;
+form {
+    font-family: 'Inter';
+    width: 80%;
+    margin: auto;
 }
+
+form p {
+    color: #8c97A4;
+}
+
+#input-img {
+    width: 48%;
+    height: 130px;
+    border: 1px dashed #94c3fa;
+    border-radius: 5px;
+}
+
 label {
     display: block;
     color: #1375E4;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 8px;
 }
-input[type="text"], input[type="email"], input[type="number"] {
-    font-size: 20px;
-    height: 34px;
-    border-radius: 8px;
-    border: 1px solid #1375E4;
-    color: #1375E4;
-    padding: auto;
+main input{
+    width: 100%;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    font-size: 18px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid #94c3fa;
+    color: #1375E4;
+    /* padding: auto; */
+}
+
+input[type="file"] {
+    color: #1375E4;
+    font-weight: 600;
+}
+
+input[type="button"] {
+    border: none;
+    /* margin-left: 50px; */
+    padding: 9px 50px;
+    width: 70%;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    background: #59CDFF;
+    box-shadow: 0px 5px #367DCA;
+    color: white;
+}
+h3 a{
+    font-family: 'Mochiy Pop One';
+    font-weight: 600;
+    font-size: 15px; 
+    color: #367DCA;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    padding: 0%;
+}
 
 
 /* ----------------footer------------------- */
@@ -47,13 +99,16 @@ footer {
     background-color: #1375E4;
     position: absolute;
     margin-top: 10px;
+    
 }
-
-footer p{
+footer p {
     font-size: 20px;
 }
 
-a {
+footer a {
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
+}
+a:hover{
+    text-decoration: underline;
 }
