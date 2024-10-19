@@ -91,7 +91,10 @@ input[type="button"] {
     box-shadow: 0px 5px #367DCA;
     color: white;
 }
-
+.form-para{
+    display: flex;
+    justify-content: center;
+}
 
 /* ----------------footer------------------- */
 footer {
@@ -143,4 +146,14 @@ a:hover {
         display: flex;
         gap: 20px;
     }
+    .in{
+        width: 69%;
+    }
+    .inp{
+        width: 70%;
+    }
+    .inpt{
+        width: 30%;
+    }
+    
 }
